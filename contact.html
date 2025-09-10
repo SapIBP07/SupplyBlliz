@@ -16,7 +16,7 @@
 <meta name="twitter:card" content="summary" />
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "SUPPLYBLIZ", "url": "https://example.com/", "logo": "assets/logo.png", "contactPoint": [{"@type": "ContactPoint", "contactType": "customer support", "email": "info.hr@supplybliz.com", "telephone": "+91-8125769877"}]}</script>
 </head>
-<body data-page="home">
+<body data-page="contact">
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="container header-inner">
@@ -34,39 +34,46 @@
     </nav>
   </div>
 </header>
-<main id="main">
-  <section class="hero">
-    <div class="container hero-inner">
-      <h1>Supply Chain Consulting to <span class="highlight">Innovate</span>, <span class="highlight">Integrate</span>, <span class="highlight">Accelerate</span> the Business</h1>
-      <p>We partner with you to modernize planning, optimize operations, and unlock resilient growth.</p>
-      <div class="hero-cta">
-        <a class="btn btn-primary" href="services.html">Our Services</a>
-        <a class="btn btn-outline" href="contact.html">Talk to us</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="features">
-    <div class="container grid-3">
-      <article>
-        <h3>Strategy</h3>
-        <p>Targeted roadmaps for supply chain transformation aligned to business outcomes.</p>
-      </article>
-      <article>
-        <h3>Integration</h3>
-        <p>Seamless process & system integration across ERP, planning, and logistics.</p>
-      </article>
-      <article>
-        <h3>Acceleration</h3>
-        <p>Rapid pilots and value sprints to prove impact and scale with confidence.</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="cta-banner">
+<main id="main" class="page">
+  <section class="page-hero">
     <div class="container">
-      <h2>Ready to de-risk your supply chain?</h2>
-      <a class="btn btn-light" href="contact.html">Contact us</a>
+      <h1>Contact Us</h1>
+      <p>We'd love to learn about your goals. Send us a message and we'll respond promptly.</p>
+    </div>
+  </section>
+  <section class="container contact-grid">
+    <div>
+      <h2>Reach us</h2>
+      <ul class="list-unstyled">
+        <li>Email: <a href="mailto:info.hr@supplybliz.com">info.hr@supplybliz.com</a></li>
+        <li>Mobile: <a href="tel:+918125769877">+91-8125769877</a></li>
+      </ul>
+      <p class="muted">Tip: We reply within 1–2 business days.</p>
+    </div>
+    <div>
+      <h2>Send a message</h2>
+      <!-- Working form via FormSubmit (no account needed) -->
+      <form action="https://formsubmit.co/info.hr@supplybliz.com" method="POST" class="contact-form">
+        <!-- Protect from bots -->
+        <input type="hidden" name="_captcha" value="true">
+        <input type="hidden" name="_subject" value="New inquiry from SUPPLYBLIZ website">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://example.com/thank-you.html">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="How can we help?" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Send</button>
+      </form>
+      <p class="muted small">By submitting, you consent to be contacted at the details provided.</p>
     </div>
   </section>
 </main>
