@@ -1,126 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SUPPLYBLIZ — Supply Chain Consulting</title>
-  <meta name="description" content="Supply Chain Consulting to Innovate, Integrate, and Accelerate your business." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SUPPLYBLIZ — Supply Chain Consulting</title>
+<meta name="description" content="SUPPLYBLIZ provides supply chain consulting to innovate, integrate, and accelerate your business." />
+<link rel="canonical" href="https://example.com/" />
+<meta name="theme-color" content="#005a9c" />
+<link rel="stylesheet" href="style.css" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="SUPPLYBLIZ — Supply Chain Consulting" />
+<meta property="og:description" content="Innovate. Integrate. Accelerate. Supply chain strategy, process optimization, technology integration, analytics." />
+<meta property="og:image" content="assets/logo.png" />
+<meta property="og:url" content="https://example.com/" />
+<meta name="twitter:card" content="summary" />
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "SUPPLYBLIZ", "url": "https://example.com/", "logo": "assets/logo.png", "contactPoint": [{"@type": "ContactPoint", "contactType": "customer support", "email": "info.hr@supplybliz.com", "telephone": "+91-8125769877"}]}</script>
 </head>
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="#home" class="brand">
-        <img src="assets/logo.png" alt="SUPPLYBLIZ logo" class="logo" onerror="this.style.display='none';document.getElementById('fallbackLogoHeader').style.display='inline-flex';" />
-        <span id="fallbackLogoHeader" class="logo-fallback" style="display:none;">SB</span>
-        <span class="brand-text">SUPPLYBLIZ</span>
-      </a>
-
-      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-
-      <nav class="site-nav" id="siteNav">
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#contact" class="btn btn-primary">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="home">
-    <section class="hero">
-      <div class="container hero-inner">
-        <h1>
-          Supply Chain Consulting to
-          <span class="accent">Innovate</span>,
-          <span class="accent">Integrate</span>,
-          <span class="accent">Accelerate</span>
-          the Business
-        </h1>
-        <p class="lead">We partner with you to modernize planning, optimize operations, and unlock resilient growth.</p>
-        <div class="hero-ctas">
-          <a href="#contact" class="btn btn-primary">Talk to us</a>
-          <a href="#services" class="btn btn-outline">Our Services</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="services" class="section">
-      <div class="container">
-        <h2 class="section-title">Our Services</h2>
-        <div class="cards">
-          <article class="card">
-            <h3>Strategy</h3>
-            <p>Targeted roadmaps for supply chain transformation aligned to business outcomes.</p>
-          </article>
-          <article class="card">
-            <h3>Integration</h3>
-            <p>Seamless process & system integration across ERP, planning, and logistics.</p>
-          </article>
-          <article class="card">
-            <h3>Acceleration</h3>
-            <p>Rapid pilots and value sprints to prove impact and scale with confidence.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section section-alt">
-      <div class="container narrow">
-        <h2 class="section-title">About Us</h2>
-        <p>We are a supply chain consulting partner focused on delivering measurable value. We help you modernize planning, integrate processes, and accelerate outcomes with pragmatic execution.</p>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <div class="container">
-        <h2 class="section-title">Contact Us</h2>
-        <div class="contact-grid">
-          <div>
-            <h3>SUPPLYBLIZ</h3>
-            <p>Supply Chain Consulting to Innovate, Integrate, and Accelerate your business.</p>
-            <ul class="contact-list">
-              <li><strong>Email:</strong> <a href="mailto:info.hr@supplybliz.com">info.hr@supplybliz.com</a></li>
-              <li><strong>Phone:</strong> <a href="tel:+918125769877">+91-8125769877</a></li>
-            </ul>
-          </div>
-          <form class="contact-form" name="contact" netlify>
-            <input type="hidden" name="form-name" value="contact" />
-            <label>
-              Name
-              <input type="text" name="name" required />
-            </label>
-            <label>
-              Email
-              <input type="email" name="email" required />
-            </label>
-            <label>
-              Message
-              <textarea name="message" rows="4" required></textarea>
-            </label>
-            <button type="submit" class="btn btn-primary">Send</button>
-          </form>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <img src="assets/logo.png" alt="SUPPLYBLIZ" class="logo small" onerror="this.style.display='none';document.getElementById('fallbackLogoFooter').style.display='inline-flex';" />
-        <span id="fallbackLogoFooter" class="logo-fallback small" style="display:none;">SB</span>
-        <span>SUPPLYBLIZ</span>
-      </div>
-      <div class="footer-right">
-        <span>© 2025 SUPPLYBLIZ. All rights reserved.</span>
+<body data-page="home">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/logo.png" alt="SUPPLYBLIZ logo" />
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">☰</button>
+      <ul id="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="hero">
+    <div class="container hero-inner">
+      <h1>Supply Chain Consulting to <span class="highlight">Innovate</span>, <span class="highlight">Integrate</span>, <span class="highlight">Accelerate</span> the Business</h1>
+      <p>We partner with you to modernize planning, optimize operations, and unlock resilient growth.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="services.html">Our Services</a>
+        <a class="btn btn-outline" href="contact.html">Talk to us</a>
       </div>
     </div>
-  </footer>
+  </section>
 
-  <script src="script.js"></script>
+  <section class="features">
+    <div class="container grid-3">
+      <article>
+        <h3>Strategy</h3>
+        <p>Targeted roadmaps for supply chain transformation aligned to business outcomes.</p>
+      </article>
+      <article>
+        <h3>Integration</h3>
+        <p>Seamless process & system integration across ERP, planning, and logistics.</p>
+      </article>
+      <article>
+        <h3>Acceleration</h3>
+        <p>Rapid pilots and value sprints to prove impact and scale with confidence.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Ready to de-risk your supply chain?</h2>
+      <a class="btn btn-light" href="contact.html">Contact us</a>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>SUPPLYBLIZ</h4>
+      <p>Supply Chain Consulting to Innovate, Integrate, and Accelerate your business.</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul class="list-unstyled">
+        <li><a href="mailto:info.hr@supplybliz.com">info.hr@supplybliz.com</a></li>
+        <li><a href="tel:+918125769877">+91-8125769877</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Follow</h4>
+      <ul class="list-unstyled">
+        <li><a href="#" aria-disabled="true">LinkedIn (coming soon)</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container copyright">© 2025 SUPPLYBLIZ. All rights reserved.</div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
-
